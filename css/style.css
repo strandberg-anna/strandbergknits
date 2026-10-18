@@ -4,9 +4,9 @@
    ========================================================== */
 
 :root {
-  --bg: #f4eedf;          /* ljus bakgrund */
+  --bg: #f5f3ee;          /* ljus bakgrund */
   --paper: #fbfaf6;       /* kort och rutor */
-  --sand: #e9dfcb;        /* beige block */
+  --sand: #ece7de;        /* beige block */
   --sage: #e4e0d8;        /* ljusgrått block */
   --green: #9e9181;       /* gråbrun, stora mörka blocket */
   --dark: #7d705f;        /* mörkare gråbrun, knappar och sidfot */
@@ -204,7 +204,7 @@ p { margin: 0 0 1em; }
 .footer { background: var(--dark); color: #fff; padding: 56px 0 28px; }
 .footer .top { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; padding-bottom: 36px; border-bottom: 1px solid rgba(255,255,255,.18); }
 .footer .brand { font-family: var(--serif); font-size: 2rem; color: #fff; }
-.footer .brand small { display: block; font-family: var(--sans); font-size: .78rem; color: #f4eedf; }
+.footer .brand small { display: block; font-family: var(--sans); font-size: .78rem; color: #f5f3ee; }
 .footer nav { display: flex; gap: 28px; flex-wrap: wrap; font-size: .85rem; }
 .footer a { text-decoration: none; color: #fff; }
 .footer .bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 22px; font-size: .72rem; }
