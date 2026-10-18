@@ -1,0 +1,38 @@
+STICKA TIDLÖSA PLAGG – HEMSIDAN
+================================
+
+Mappar
+  index.html            Startsidan (Boken)
+  rattelser.html        Rättelser och diagram
+  mot-forfattaren.html  Möt författaren
+  videor.html           Videor
+  css/style.css         Färger, typsnitt, layout (färgerna står överst)
+  js/main.js            Meny, videofilter, nyhetsbrev
+  bilder/               Alla bilder
+  diagram/              Lägg diagram-PDF:erna här
+
+Byta en bild
+  Spara den nya bilden med EXAKT samma filnamn i mappen bilder/ och skriv över.
+  Bilderna nu är tillfälliga, utklippta ur Figma-skissen. Byt till dina
+  riktiga foton i full storlek (gärna ca 1600 px breda, sparade som JPG).
+
+Lägga upp ett diagram
+  1. Spara PDF:en i diagram/ med namnet som står på sidan, t.ex. alstad-diagram.pdf
+  2. Öppna rattelser.html, sök på "Kommer snart" vid rätt mönster och byt raden
+     <span class="btn" aria-disabled="true">Kommer snart</span>
+     mot
+     <a class="btn" href="diagram/alstad-diagram.pdf" download>Ladda ned PDF <span class="arrow">↓</span></a>
+
+Lägga till en video
+  Ladda upp videon på YouTube. Kopiera id:t ur länken
+  (youtube.com/watch?v=ABC123xyz -> ABC123xyz) och klistra in det i
+  data-youtube="" för rätt video i videor.html. Då spelas den på sidan.
+
+Lägga till en rättelse
+  I rattelser.html finns en färdig mall i en kommentar (<!-- ... -->).
+  Ta bort rutan "Inga rättelser ännu" och kopiera in mallen.
+
+Uppladdning till Loopia
+  FileZilla -> Server: ftpcluster.loopia.se, Användarnamn: ditt FTP-namn
+  (oftast domännamnet), Port 21. Öppna mappen för domänen -> public_html.
+  Dra över ALLT INNEHÅLL i den här mappen (inte själva mappen).
