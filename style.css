@@ -189,7 +189,6 @@ p { margin: 0 0 1em; }
 .dl h3 { font-size: 1.45rem; }
 .dl .small { margin: 2px 0 0; }
 .dl .btn { padding: 10px 16px; font-size: .82rem; }
-.dl { grid-template-columns: 1fr; gap: 14px; padding: 24px 0; }
 .sizes { display: flex; flex-wrap: wrap; gap: 8px; }
 .size { display: inline-flex; align-items: center; gap: 8px; min-width: 64px; justify-content: center; padding: 10px 14px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); font: 500 .85rem var(--sans); text-decoration: none; }
 .size:hover { background: var(--dark); border-color: var(--dark); color: #fff; }
